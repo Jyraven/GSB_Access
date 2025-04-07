@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:elevation="4dp"
+    card_view:cardCornerRadius="8dp"
+    android:layout_margin="8dp"
+    android:padding="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/zoneName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zone : Salle serveur"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/permissionType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type : Temporaire"
+            android:layout_marginBottom="2dp" />
+
+        <TextView
+            android:id="@+id/dateRange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01/04 - 02/04" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
